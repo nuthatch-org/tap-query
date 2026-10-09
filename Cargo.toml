@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Pay The Graph's indexers directly with TAP receipts and query them, without a gateway."
-repository = "https://github.com/nightswatchhq/tap-query"
+repository = "https://github.com/nuthatch-org/tap-query"
 
 # Versions are pinned to what `indexer-rs` resolves against, deliberately. An earlier attempt let
 # cargo pick `tap_eip712_message 0.1`, which pulls alloy 0.9 while `thegraph-core 0.15` pulls
